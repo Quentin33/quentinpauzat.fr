@@ -327,8 +327,8 @@ div .first {
 	float:left;
 	}
 	
-.contact_me_phone {
-	background-image:url("../img/phone.png");
+.contact_me_blog {
+	background-image:url("../img/wordpress.png");
 	background-repeat:no-repeat;
 	height:30px;
 	color:#3a7aa6;
@@ -447,12 +447,66 @@ ul.square li p {
 	padding-top:25px;
 	}
 	
-.facebook, .linkedin, .tweets, .flickr, .deviant, .dribbble  {
+.facebook, .viadeo, .blog, .linkedin, .tweets, .flickr, .deviant, .dribbble  {
 	float:left;
 	padding-left:12px;
 	display:block;
 	}
+
+.viadeo a {
+	background:url("../img/viadeo.png") no-repeat scroll 0 0 transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+	-webkit-transition:all 0.2s ease-in-out;  
+    -moz-transition:all 0.2s ease-in-out;    
+    -o-transition:all 0.2s ease-in-out;     
+    -ms-transition:all 0.2s ease-in-out;      
+    transition:all 0.2s ease-in-out;  
+	}
 	
+.viadeo a:hover {
+	background:url("../img/viadeo.png") no-repeat scroll 0 -34px transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+	}
+
+.blog a {
+	background:url("../img/blog.png") no-repeat scroll 0 0 transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+	-webkit-transition:all 0.2s ease-in-out;  
+    -moz-transition:all 0.2s ease-in-out;    
+    -o-transition:all 0.2s ease-in-out;     
+    -ms-transition:all 0.2s ease-in-out;      
+    transition:all 0.2s ease-in-out;  
+	}
+	
+.blog a:hover {
+	background:url("../img/blog.png") no-repeat scroll 0 -34px transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+	}
+
 .facebook a {
 	background:url("../img/facebook.png") no-repeat scroll 0 0 transparent;
     border:0 none;
